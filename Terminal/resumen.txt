@@ -1,0 +1,14 @@
+1. Agregar un repositorio remoto
+    git remote add origin https://repositorio.git
+
+2. Fusionar los cambios de una rama con la actual
+    git merge rama_a_unir
+
+3. Saber el estado de los archivos
+    git status
+
+4. Enviar los cambios del repositorio local al repositorio remoto
+    git push origin rama
+
+5. Obtener los cambios más recientes del repositorio remoto y actualizar el local
+    git pull origin rama
