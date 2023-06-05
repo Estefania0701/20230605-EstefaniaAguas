@@ -1,0 +1,35 @@
+  501  mkdir 20230605-EstefaniaAguas
+  502  cd 20230605-EstefaniaAguas/
+  503  git init
+  504  git remote add origin https://github.com/Estefania0701/20230605-EstefaniaAguas.git
+  505  touch comandos.txt main.js index.html
+  506  git add .
+  507  git commit -m "commit 01 de EstefaniaAguas"
+  508  git push origin main
+  509  git branch feature01
+  510  git checkout feature01
+  511  mkdir Terminal Hardware
+  512  cd Terminal/
+  513  touch resumen.txt
+  514  cp resumen.txt ../Hardware/
+  515  git add .
+  516  git commit -m "commit 02 de EstefaniaAguas"
+  517  git push origin feature01
+  518  git add .
+  519  cd ..
+  520  git add .
+  521  git commit -m "commit 02 de EstefaniaAguas (corrijo archivo que no se subio)"
+  522  git push origin feature01
+  523  git branch feature02
+  524  git checkout feature02
+  525  cd Terminal/
+  526  git status
+  527  cd ..
+  528  git add .
+  529  git status
+  530  git commit -m "commit 03 de EstefaniaAguas"
+  531  git status
+  532  git push origin feature02
+  533  git checkout main
+  534  mv comandos.txt comandosUtilizados.txt
+  535  history > comandosUtilizados.txt
